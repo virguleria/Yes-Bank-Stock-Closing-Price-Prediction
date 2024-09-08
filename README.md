@@ -1,4 +1,4 @@
-##Yes Bank Stock Closing Price Prediction
+## Yes Bank Stock Closing Price Prediction
 Project Overview
 This project aims to predict Yes Bank's monthly stock closing price using historical stock price data, including open, high, low, and closing prices, with a focus on analyzing the impact of the 2018 Rana Kapoor fraud case. The project applies time series analysis and machine learning models to understand stock price trends and forecast future prices.
 
