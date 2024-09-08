@@ -1,4 +1,4 @@
-#### Yes Bank Stock Closing Price Prediction
+# Yes Bank Stock Closing Price Prediction
 ## Project Overview
 This project aims to predict Yes Bank's monthly stock closing price using historical stock price data, including open, high, low, and closing prices, with a focus on analyzing the impact of the 2018 Rana Kapoor fraud case. The project applies time series analysis and machine learning models to understand stock price trends and forecast future prices.
 
@@ -16,29 +16,29 @@ High Price: The highest stock price during the month
 Low Price: The lowest stock price during the month
 Close Price: The stock price at the end of the month (Target Variable)
 
-### Steps Involved
-# 1. Import Libraries
+## Steps Involved
+### 1. Import Libraries
 Imported necessary Python libraries for data analysis, visualization, and machine learning.
-# 2. Understanding Variables
+### 2. Understanding Variables
 Explored and described each variable in the dataset to understand its relevance to the project goal.
-# 3. Data Wrangling
+### 3. Data Wrangling
 Performed data cleaning tasks such as handling missing values, duplicates, and outliers.
 Applied log transformations to positively skewed variables for normalization.
-# 4. Data Visualization & Storytelling
+### 4. Data Visualization & Storytelling
 Visualized the relationship between variables using scatter plots, histograms, and line charts.
 Analyzed the impact of the 2018 fraud case, showing a sharp decline in stock prices.
-# 5. Feature Engineering & Data Pre-processing
+### 5. Feature Engineering & Data Pre-processing
 Created additional features such as the mean of open, high, and low prices.
 Generated lag features to capture temporal patterns in stock prices.
 Addressed multicollinearity by using Variance Inflation Factor (VIF).
-# 6. Machine Learning Model Implementation
+### 6. Machine Learning Model Implementation
 Model 1: Ridge Regression
 Ridge regression was implemented to reduce overfitting by adding regularization.
 Model 2: Random Forest
 A Random Forest model was also developed to capture non-linear relationships and handle complex data structures.
-# 7. Model Evaluation
+### 7. Model Evaluation
 Both models were evaluated for their predictive accuracy using performance metrics such as RMSE, MAE, and R-squared.
-# 8. Conclusion
+### 8. Conclusion
 The Random Forest model performed well, capturing temporal trends and handling new features.
 The fraud case in 2018 showed a clear impact on the stock's closing price, which was reflected in the model's predictions.
 The models showed strong performance and can be used for future predictive tasks with additional data.
